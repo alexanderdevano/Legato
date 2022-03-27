@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Your Music Taste!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Navbar section-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">LEGATO</a>
+            <div class="navbar__toggle" id="mobile-menu"> 
+                <span class="bar"></span> 
+                <span class="bar"></span> 
+                <span class="bar"></span> 
+         </div>
+         <ul class="navbar__menu">
+              <li class="navbar__item">
+                <a href="#home" class="navbar__links" id="home-page">Home</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#about" class="navbar__links" id="about-page">About</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#album" class="navbar__links" id="album-page">Album</a>
+              </li>
+              <li class="navbar__btn">
+                <a href="#sign-up" class="button" id="signup">Sign Up</a>
+              </li>
+         </ul>
+    </nav>
+
+    <!--Headline section-->
+    <div class="headline" id="Home">
+        <div class="headline__container">
+            <h1 class="headline__heading">Discover your <span>music taste</span></h1>
+            <p class="headline__description">Never-Ending Stream of Possibilities</p> 
+            <button class="main__btn"><a href="#album">Explore Now!</a></button>
+        </div>
+    </div>
+
+    <!--About section-->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><img src="icon.gif"></img></div>
+        </div>
+        <div class="main__content">
+          <h1>What do we do?</h1> 
+          <h2>We help music listeners</h2>
+          <p>Delve into various artists discography</p>
+          <p>Find out your favorite artists latest releases</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Album section-->
+    <div class="album" id="album"> 
+      <h1>Albums</h1><br>
+      <div class="album__container">
+        <div class="album__folklore">
+          <a href="#" class="album_links"><img class="album__folklore1" src="Folklore.png"></img></a>
+          <h2 class="album__text1">Folklore</h2>
+          <p class="album__text1">Taylor Swift</p> 
+        </div> 
+        <div class="album__NFR">
+          <a href="#" class="album_links"><img class="album__NFR1"src="NFR.jpg"></img></a>
+          <h2 class="album__text1">Norman Fucking Rockwell</h2>
+          <p class="album__text1">Lana Del Rey</p> 
+        </div>
+        <div class="album__melodrama">
+          <a href="#" class="album_links"><img class="album__melodrama1"src="melodrama.png"></img></a>  
+          <h2 class="album__text1">Melodrama</h2>
+          <p class="album__text1">Lorde</p> 
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
